@@ -1,0 +1,112 @@
+body{
+	font-size: 20px;
+	font-style: "arial";
+	background-color: grey;
+}
+.logo{
+      float:left;
+      background-color: grey;
+      padding: 20px 0px 0px 10px;
+}
+h1{
+	float:left;
+	font-family:serif;
+    padding:30px;
+}
+ul{
+	float:left;
+	list-style-type:none;
+	margin:5px;
+	padding:5px;
+	overflow:hidden;
+	background-color:#333333;
+}
+li{
+	float:left;
+	display:block;
+	color:white;
+	text-align: center;
+	padding: 16px;
+	text-decoration:none;
+}
+.time{
+	float:left;
+	border-left:8px;
+	border-radius:10px;
+	padding:10px 10px;
+	font-family: cursive;
+}
+.location{
+    float:left;
+    border-left:30px;
+    padding:10px 250px 10px 150px;
+    font-family: cursive;
+}
+.reviews{
+	padding-top: 40px;
+	font-family: cursive;
+}
+.gallery1{
+	float:left;
+	padding: 50px 100px 0px 130px;
+}
+.gallery2{
+	float:left;
+	padding:50px 100px 0px 0px;
+}
+.gallery3{
+	padding:50px 100px 0px 0px;
+}
+.copy{
+	text-align: center;
+}
+.option1{
+	float:left;
+	padding-left: 550px;
+}
+.option2{
+	float:right;
+	padding-right: 110px;
+}
+.option3{
+	float:right;
+}
+.option4{
+	float: right;
+}
+.main-nav{
+	text-align: center;
+}
+h3{
+	font-family:cursive;
+}
+.main-nav{
+	color:white;
+}
+p{
+	color: white;
+}
+.gallery{
+	margin:0px;
+	padding: 0px;
+	box-sizing:border-box;
+}
+@media screen and (max-width:768px){
+	body{
+		overflow-x: hidden;
+	}
+	.main.nav{
+		position:absolute;
+		right: 0px;
+		height: 92vh;
+		top:8vh;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width:50%;
+		transform: translateX(100%);
+	}
+	.main-nav li{
+		opacity:0;
+	}
+}
